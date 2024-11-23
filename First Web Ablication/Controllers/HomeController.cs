@@ -52,7 +52,7 @@ public class HomeController : Controller
            Title = "My Portfolio",
           Description = "An MVC-based portfolio project built to showcase my latest work, leveraging dynamic content rendering, enhanced user experience, and responsive design using ASP.NET Core MVC.",
           ImageUrl = "~/images/2.png",
-            ProjectLink = "#"
+            ProjectLink = "https://github.com/dohaelbana16/portfolio"
         }
     };
 
