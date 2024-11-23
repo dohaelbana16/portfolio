@@ -1,0 +1,130 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Contact";
+}
+
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+  
+    body {
+        background: linear-gradient(to right, #e9f1f5, #f0f9ff);
+        margin: 0; 
+        min-height: 100vh; 
+    }
+
+ 
+    .contact-section {
+        border-radius: 10px; 
+        padding: 30px; 
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px; 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s; 
+    }
+
+        .card:hover {
+            transform: translateY(-5px); 
+        }
+
+    
+    .btn-primary {
+        background-color: #007bff; 
+        border-radius: 50px; 
+        transition: background-color 0.3s; 
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; 
+            color: #ffffff; 
+        }
+
+    h2.display-4 {
+        color: #333; 
+    }
+
+    .full-width-form {
+        width: 100%;
+    }
+
+    .thank-you-message {
+        background-color: #d4edda;
+        color: #155724; 
+        border: 1px solid #c3e6cb; 
+        border-radius: 5px; 
+        padding: 15px; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+</style>
+
+<!-- Contact Section -->
+<section class="contact-section container py-5">
+    <div class="text-center mb-5">
+        <h2 class="display-4 fw-bold">Get In Touch</h2>
+        <p class="text-muted">@Model</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <!-- Contact Form -->
+        <div class="col-12">
+     
+            <div class="card shadow p-4 border-0">
+                <h3 class="text-center mb-4">Contact Me</h3>
+
+                <div class="thank-you-message" id="thankYouMessage" style="display: none;">
+                    Thank you for your message! I'll get back to you soon.
+                </div>
+
+                <form method="post" action="Contact/Submit" class="full-width-form" onsubmit="return showThankYouMessage(event)">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+    function showThankYouMessage(event) {
+        event.preventDefault(); 
+
+        document.getElementById('thankYouMessage').style.display = 'block';
+
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('subject').value = '';
+        document.getElementById('message').value = '';
+
+        return false; 
+    }
+</script>

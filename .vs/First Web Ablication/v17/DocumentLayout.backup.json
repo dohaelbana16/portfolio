@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|c:\\users\\dme\\desktop\\c#projects\\first web ablication\\first web ablication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0FD712E-8DC3-43EE-B511-5C11A698E773}|First Web Ablication\\First Web Ablication.csproj|solutionrelative:first web ablication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "First Web Ablication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "First Web Ablication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:39:54.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Index.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:58:18.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Projects.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\Home\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Projects.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\Home\\Projects.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:17:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAH8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:18:13.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\ViewModels\\ProjectViewModel.cs",
+              "RelativeDocumentMoniker": "First Web Ablication\\ViewModels\\ProjectViewModel.cs",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\ViewModels\\ProjectViewModel.cs",
+              "RelativeToolTip": "First Web Ablication\\ViewModels\\ProjectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:22:12.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "First Web Ablication\\Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Models\\Skill.cs",
+              "RelativeToolTip": "First Web Ablication\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:14:45.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Skills.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\Home\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Home\\Skills.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\Home\\Skills.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAFkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:17:14.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:24:30.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Program.cs",
+              "RelativeDocumentMoniker": "First Web Ablication\\Program.cs",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Program.cs",
+              "RelativeToolTip": "First Web Ablication\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:01:13.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "First Web Ablication\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\appsettings.Development.json",
+              "RelativeToolTip": "First Web Ablication\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T15:52:22.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "First Web Ablication\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "First Web Ablication\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T12:45:48.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\appsettings.json",
+              "RelativeDocumentMoniker": "First Web Ablication\\appsettings.json",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\appsettings.json",
+              "RelativeToolTip": "First Web Ablication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T12:23:53.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "First Web Ablication\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "First Web Ablication\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T21:26:36.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "First Web Ablication\\views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DME\\Desktop\\c#projects\\First Web Ablication\\First Web Ablication\\views\\_ViewStart.cshtml",
+              "RelativeToolTip": "First Web Ablication\\views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T21:25:31.528Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

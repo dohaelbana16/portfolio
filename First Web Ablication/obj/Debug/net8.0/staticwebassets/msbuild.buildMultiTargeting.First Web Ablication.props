@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\First Web Ablication.props" />
+</Project>

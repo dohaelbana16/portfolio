@@ -1,0 +1,110 @@
+﻿@model List<First_Web_Ablication.ViewModels.ProjectViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Projects";
+}
+
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+   
+    body {
+        background: linear-gradient(to right, #e9f1f5, #f0f9ff); 
+        padding: 0; 
+        margin: 0; 
+    }
+
+    .projects-section {
+        background-color: transparent; 
+        padding: 60px 0;
+    }
+
+    .project-card {
+        border: none;
+        border-radius: 15px; 
+        transition: transform 0.3s, box-shadow 0.3s;
+        background: #ffffff; 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+        padding: 20px; 
+    }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-img-top {
+        border-radius: 15px 15px 0 0; 
+        max-height: 200px; 
+        object-fit: cover;
+    }
+
+    .card-title {
+        color: #007bff;
+        font-weight: bold; 
+        font-size: 1.5rem; 
+    }
+
+    .card-text {
+        color: #555; 
+        font-size: 1rem;
+        height: 60px; 
+    }
+
+    .card-footer {
+        background-color: #f7f7f7;
+        border-top: 1px solid #dee2e6; 
+        text-align: center; 
+    }
+
+    .btn-primary {
+        background-color: #007bff; 
+        border-color: #007bff;
+        border-radius: 50px; 
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; 
+            border-color: #0056b3;
+        }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .col-md-6 {
+        display: flex; 
+        justify-content: center; 
+    }
+</style>
+
+<!-- Projects Section -->
+<section class="projects-section container mt-5">
+    <h2 class="text-center mb-4">My Projects</h2>
+
+    <div class="row">
+        @foreach (var project in Model)
+        {
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="@Url.Content(project.ImageUrl)" class="card-img-top" alt="Project Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@project.Title</h5>
+                        <p class="card-text">@project.Description</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="@project.ProjectLink" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<script src="~/js/bootstrap.bundle.min.js"></script>

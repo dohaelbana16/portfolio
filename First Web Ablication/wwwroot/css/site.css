@@ -1,0 +1,31 @@
+﻿/* styles.css */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* تحريك لأعلى */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* العودة إلى الوضع الطبيعي */
+    }
+}
+
+h1 {
+    animation: fadeIn 1s ease-in-out; /* إضافة تأثير الانميشن */
+}
+.skill-csharp .card-title i {
+    color: #2f74c0; /* لون خاص بـ C# */
+}
+
+.skill-aspnet .card-title i {
+    color: #dc3545; /* لون خاص بـ ASP.NET */
+}
+
+.skill-angular .card-title i {
+    color: #dd1b16; /* لون خاص بـ Angular */
+}
+
+.skill-default .card-title i {
+    color: #6c757d; /* لون افتراضي */
+}

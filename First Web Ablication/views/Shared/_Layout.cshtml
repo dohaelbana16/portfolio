@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My Portfolio</title>
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+    <link href="~/css/site.css" rel="stylesheet" />
+
+    <style>
+   
+        .navbar {
+            background-color: #ffffff; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: background-color 0.3s, box-shadow 0.3s; 
+        }
+
+            .navbar:hover {
+                background-color: #f1f1f1; 
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            }
+
+        .nav-link {
+            color: #555; 
+            font-weight: 500; 
+            transition: color 0.3s, transform 0.3s; 
+        }
+
+            .nav-link:hover {
+                color: #007bff; 
+                transform: translateY(-2px); 
+                text-decoration: none; 
+            }
+
+        .navbar-brand {
+            font-weight: bold; 
+            color: #007bff; 
+            font-size: 1.5rem; 
+        }
+
+        .navbar-toggler {
+            border: none; 
+            color: #007bff; 
+        }
+
+            .navbar-toggler:hover {
+                color: #0056b3; 
+            }
+
+            .navbar-toggler:focus {
+                outline: none;
+            }
+
+        .dropdown-menu {
+            background-color: #ffffff; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item:hover {
+            background-color: #e2e6ea; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Home/Index">Doha Elbana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Home/Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+  
+    <div class="container mt-5">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-5 fixed-bottom ">
+        <p>&copy; 2024 Doha Elbana. All Rights Reserved.</p>
+    </footer>
+
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

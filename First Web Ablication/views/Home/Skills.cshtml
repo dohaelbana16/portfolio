@@ -1,0 +1,118 @@
+﻿@model List<First_Web_Ablication.Models.Skill>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- تضمين مكتبة Font Awesome -->
+
+<style>
+    body {
+        background-color: #f0f4ff;
+        margin: 0;
+        min-height: 100vh;
+    }
+
+    .skills-section {
+        padding: 60px 0;
+        border-radius: 10px;
+    }
+
+    .skill-card {
+        border: none;
+        border-radius: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        background: #ffffff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-title {
+        color: #007bff;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        color: #333;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+   
+    .skill-csharp .card-title i {
+        color: #2f74c0;
+    }
+
+    .skill-angular .card-title i {
+        color: #dd1b16; 
+    }
+
+    .skill-database .card-title i {
+        color: #ffc107; 
+    }
+
+    .skill-git .card-title i {
+        color: #333; 
+    }
+
+    .skill-agile .card-title i {
+        color: #28a745;
+
+    .skill-problem-solving .card-title i {
+        color: #f39c12;
+    }
+</style>
+
+<section class="skills-section container mt-5">
+    <h2 class="text-center mb-4">My Skills</h2>
+
+    <div class="row text-center">
+        @foreach (var skill in Model)
+        {
+            string cardClass = skill.Title switch
+            {
+                ".NET Development" => "skill-csharp",
+                "Front-End Technologies" => "skill-angular",
+                "Database Management" => "skill-database",
+                "Version Control" => "skill-git",
+                "Agile Methodology" => "skill-agile",
+                "Problem Solving" => "skill-problem-solving",
+                _ => "skill-default"
+            };
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm skill-card @cardClass">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="@skill.Icon" style="font-size: 30px; display: block; margin-bottom: 10px;"></i>
+                            @skill.Title
+                        </h5>
+                        <p class="card-text">@skill.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<script src="~/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,119 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Home";
+}
+
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- تضمين مكتبة Font Awesome -->
+
+<style>
+
+    body {
+        background: linear-gradient(135deg, #b2c6ff, #d9e7ff); 
+        color: #333;
+    }
+
+  
+    .card {
+        background-color: rgba(255, 255, 255, 0.8); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        transform: scale(1);
+    }
+
+    .card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-lg {
+        border-radius: 50px;
+    }
+
+    .btn-outline-primary {
+        border-color: #0056b3; 
+        color: #0056b3;
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #0056b3;
+        color: #ffffff;
+    }
+
+    .btn-outline-info {
+        border-color: #0dcaf0;
+        color: #0dcaf0;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-outline-info:hover {
+        background-color: #0dcaf0;
+        color: #ffffff;
+    }
+
+    .btn-outline-warning {
+        border-color: #ffc107; 
+        color: #ffc107;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-outline-warning:hover {
+        background-color: #ffc107; 
+        color: #ffffff;
+    }
+
+    h1, h5 {
+        font-family: 'Arial', sans-serif;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+</style>
+
+<!-- Home Section -->
+<section class="home-section container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-3 fw-bold">@ViewBag.WelcomeMessage</h1>
+        <p class="lead text-muted">@ViewBag.Description</p>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="card shadow mb-4 border-0">
+                <div class="card-body text-center"> 
+                    <i class="fas fa-cogs" style="font-size: 30px; margin-bottom: 10px; color: #28a745;"></i> <!-- أيقونة المهارات -->
+                    <h5 class="card-title" style="color: #28a745;">Skills</h5>
+                    <p class="card-text">Explore my technical skills and tools that I am proficient in as a developer.</p>
+                    <a href="@Url.Action("Skills", "Home")" class="btn btn-outline-primary btn-lg">View Skills</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow mb-4 border-0">
+                <div class="card-body text-center">
+                    <i class="fas fa-project-diagram" style="font-size: 30px; margin-bottom: 10px; color: #17a2b8;"></i> <!-- أيقونة المشاريع -->
+                    <h5 class="card-title" style="color: #17a2b8;">Projects</h5>
+                    <p class="card-text">Check out some of the projects I've worked on and contributed to.</p>
+                    <a href="@Url.Action("Projects", "Home")" class="btn btn-outline-info btn-lg">View Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow mb-4 border-0">
+                <div class="card-body text-center"> 
+                    <i class="fas fa-envelope" style="font-size: 30px; margin-bottom: 10px; color: #ffc107;"></i> <!-- أيقونة الاتصال -->
+                    <h5 class="card-title" style="color: #ffc107;">Contact Me</h5>
+                    <p class="card-text">Feel free to reach out for any inquiries or collaboration.</p>
+                    <a href="@Url.Action("Contact", "Home")" class="btn btn-outline-warning btn-lg">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="~/js/bootstrap.bundle.min.js"></script>
